@@ -1,0 +1,15 @@
+Source: musa4wine
+Section: universe/otherosfs
+Priority: optional
+Maintainer: Luis Antonio Garcia Gisbert <luisgg@gmail.com>
+Build-Depends: debhelper (>= 7.0)
+Standards-Version: 3.8.4
+
+Package: musa4wine
+Architecture: any
+Depends: ${misc:Depends}, unionfs-fuse, gksu, wine
+Description: multi user shared application installer using unionfs
+ 'Multi User Shared Applicattions for Wine' allows administrators to share
+ wine applications in a multiuser environment with just one installation. The package clones
+ the wine prefix of the application using unionfs, so each user runs in his own environment but
+ with 'near zero' disk space usage, and without risk of registry corruption.
