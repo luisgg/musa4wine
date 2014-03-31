@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=muse4wine
+Comment=Mount user unionfs wine prefixes (musa4wine)
+Exec=/usr/bin/musa-mount
+NoDisplay=true
+
